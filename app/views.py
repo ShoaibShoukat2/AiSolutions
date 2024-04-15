@@ -15,4 +15,7 @@ def aboutus(request):
 
 
 
+def Pricing(request):
+    return render(request,'pricing.html')
+
 
