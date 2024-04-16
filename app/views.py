@@ -34,3 +34,7 @@ def Signup(request):
     return render(request,'sign-up.html')
 
 
+
+
+def contact(request):
+    return render(request,'contact-us.html')
