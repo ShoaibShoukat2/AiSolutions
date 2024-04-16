@@ -86,7 +86,6 @@
 				</div> <!-- /.form-wrapper -->
 			</div>
 
-
 			<!-- 
 			=============================================
 				Theme Main Menu
@@ -99,7 +98,7 @@
 
 						<div class="right-widget d-flex align-items-center ms-auto order-lg-3">
 							<button class="menu-search-btn tran3s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-search"></i></button>
-							<a href="contact-us.html" class="send-msg-btn tran3s d-none d-lg-block" style="width: 100px;">Connexion</a>
+							<a href="/signin" class="send-msg-btn tran3s d-none d-lg-block" style="width: 100px;">Connexion</a>
 						</div> <!-- /.right-widget -->
 
 						<nav class="navbar navbar-expand-lg order-lg-2">
@@ -108,30 +107,33 @@
 						 	</button>
 						    <div class="collapse navbar-collapse" id="navbarNav">
 						    	<ul class="navbar-nav">
-						    		<li class="d-block d-lg-none"><div class="logo"><a href="index.html"><img src="{% static 'images/logo/logo_01.png' %}" alt="" width="130"></a></div></li>
+						    		<li class="d-block d-lg-none"><div class="logo"><a href="index.html"><img src="{% static 'images/logo/logo.jpg' %}" alt="" width="130"></a></div></li>
+
 							        <li class="nav-item active dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
+							        	<a class="nav-link dropdown-toggle" href="/" aria-expanded="false">Home</a>
 										<!-- Home -->
 						            </li>
+
 						            <li class="nav-item dropdown">
 							        	<a class="nav-link" href="/aboutus" aria-expanded="false">About us</a>
 						            </li>
+
 						            <li class="nav-item dropdown">
-										
 							        	<a class="nav-link" href="/pricing" aria-expanded="false">Pricing</a>
-							        	
 						            </li>
+
 							        <li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">FAQ</a>
+							        	<a class="nav-link dropdown-toggle" href="/faq" aria-expanded="false">FAQ</a>
 						            </li>
+									
 									<li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Features</a>
 										<!-- login -->
 							        	<ul class="dropdown-menu">
 							                <li><a href="portfolio-V1.html" class="dropdown-item"><span>s'identifier</span></a></li>
 											<!-- signup -->
 						                </ul>
 						            </li>
+
 									<li class="nav-item dropdown">
 							        	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Contact</a>
 						            </li>
@@ -148,7 +150,6 @@
 					</div>
 				</div> <!-- /.inner-content -->
 			</header> <!-- /.theme-main-menu -->
-
 			
 			<!-- 
 			=============================================
@@ -695,12 +696,13 @@
 							<div class="d-lg-flex justify-content-between align-items-center">
 								<ul class="order-lg-1 pb-15 d-flex justify-content-center footer-nav style-none">
 									<li><a href="faq.html">Privacy &amp; Terms.</a></li>
-									<li><a href="faq.html">FAQ</a></li>
+									<li><a href="/faq">FAQ</a></li>
 									<li><a href="contact-us.html">Contact Us</a></li>
 								</ul>
 								<p class="copyright text-center order-lg-0 pb-15">Copyright @2022 sinco inc.</p>
 							</div>
 						</div>
+						
 					</div> <!-- /.inner-wrapper -->
 				</div>
 			</div> <!-- /.footer-style-four -->

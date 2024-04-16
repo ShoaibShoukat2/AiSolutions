@@ -19,3 +19,18 @@ def Pricing(request):
     return render(request,'pricing.html')
 
 
+
+def FAQ(request):
+    return render(request,'faq.html')
+
+
+def Sigin(request):
+    return render(request,'signin.html')
+
+
+
+
+def Signup(request):
+    return render(request,'sign-up.html')
+
+

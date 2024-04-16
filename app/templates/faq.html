@@ -76,6 +76,7 @@
 			</section>
 
 
+
 			<!-- 
 			=============================================
 				Search
@@ -96,14 +97,12 @@
 				Theme Main Menu
 			============================================== 
 			-->
-			
 			<header class="theme-main-menu sticky-menu theme-menu-four">
 				<div class="inner-content">
 					<div class="d-flex align-items-center">
 						<div class="logo order-lg-0"><a href="index.html" class="d-block"><img src="{% static 'images/logo/logo.jpg' %}" alt="" width="90"></a></div>
 
 						<div class="right-widget d-flex align-items-center ms-auto order-lg-3">
-							<!-- <div class="call-button d-none d-xl-block me-5">Call us <a href="#">(+880) 321 782 110</a></div> -->
 							<button class="menu-search-btn tran3s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-search"></i></button>
 							<a href="contact-us.html" class="send-msg-btn tran3s d-none d-lg-block">Send us Message</a>
 						</div> <!-- /.right-widget -->
@@ -112,7 +111,7 @@
 							<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						    	<span></span>
 						 	</button>
-							 <div class="collapse navbar-collapse" id="navbarNav">
+						    <div class="collapse navbar-collapse" id="navbarNav">
 						    	<ul class="navbar-nav">
 						    		<li class="d-block d-lg-none"><div class="logo"><a href="index.html"><img src="{% static 'images/logo/logo_01.png' %}" alt="" width="130"></a></div></li>
 							        <li class="nav-item dropdown">
@@ -122,19 +121,18 @@
 							        	<a class="nav-link dropdown-toggle" href="/aboutus"  aria-expanded="false">About us</a>
 							        	
 						            </li>
-									<li class="nav-item active dropdown">
+									<li class="nav-item dropdown">
 							        	<a class="nav-link dropdown-toggle" href="/pricing"  aria-expanded="false">Pricing</a>
 							        	
 						            </li>
-									<li class="nav-item dropdown">
-							        	<a class="nav-link dropdown-toggle" href="/faq"  aria-expanded="false">FAQ</a>
+						            <li class="nav-item active dropdown">
+							        	<a class="nav-link dropdown-toggle" href="/faq" data-bs-auto-close="outside" aria-expanded="false">FAQ</a>
 							        	
 						            </li>
-						           
 								
 							      
 						            <li class="nav-item">
-							        	<a class="nav-link" href="/contact" role="button">Contact</a>
+							        	<a class="nav-link" href="contact-us.html" role="button">Contact</a>
 						            </li>
 						    	</ul>
 						    	<!-- Mobile Content -->
@@ -159,10 +157,10 @@
 			-->
 			<div class="theme-inner-banner">
 				<div class="container">
-					<h2 class="intro-title text-center">Our Pricing</h2>
+					<h2 class="intro-title text-center">Questions & Answers</h2>
 					<ul class="page-breadcrumb style-none d-flex justify-content-center">
-						<li><a href="index.html">Home</a></li>
-						<li class="current-page">Pricing</li>
+						<li><a href="/">Home</a></li>
+						<li class="current-page">Faq</li>
 					</ul>
 				</div>
 				<img src="{% static 'images/shape/shape_38.svg' %}" alt="" class="shapes shape-one">
@@ -170,222 +168,109 @@
 			</div> <!-- /.theme-inner-banner -->
 			
 
-
-
 			<!--
 			=====================================================
-				Pricing Section One
+				FAQ Section One
 			=====================================================
 			-->
-			<div class="pricing-section-one mt-130 lg-mt-110">
-				<div class="container" data-aos="fade-up">
+			<div class="faq-section-one mt-130 mb-150 lg-mt-80 lg-mb-80">
+				<div class="container">
 					<div class="row">
-						<div class="col-xxl-7 col-xl-8 col-lg-7 col-md-9 m-auto">
-							<div class="title-style-one text-center">
-								<h2 class="main-title">Solo, Agency or Team? We’ve got you Covered</h2>
-							</div> <!-- /.title-style-one -->
+						<div class="col-xxl-10 col-xl-11 m-auto">
+							<div class="row">
+								<div class="col-xl-4 col-lg-3">
+									<ul class="faq-list-item style-none md-mb-60">
+										<li class="active"><a href="#">1. <span>Makreting</span></a></li>
+										<li><a href="#">2. <span>Buying</span></a></li>
+										<li><a href="#">3. <span>User Manual</span></a></li>
+										<li><a href="#">4. <span>Payments</span></a></li>
+										<li><a href="#">5. <span>Terms & Conditions</span></a></li>
+										<li><a href="#">6. <span>Account</span></a></li>
+									</ul>
+								</div>
+
+								<div class="col-xl-8 col-lg-9" data-aos="fade-left">
+									<h3 class="faq-title">Marketing</h3>
+									<div class="accordion accordion-style-one" id="accordionOne">
+										<div class="accordion-item">
+										    <div class="accordion-header" id="headingOne">
+										      	<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+										        	What is web hosting?
+										      	</button>
+										    </div>
+										    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionOne">
+										    	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+									  	</div>
+									  	<div class="accordion-item">
+										    <div class="accordion-header" id="headingTwo">
+										      	<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										        	How do you weigh different criteria in your process?
+										      	</button>
+										    </div>
+										    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionOne">
+										      	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+									  	</div>
+									  	<div class="accordion-item">
+										    <div class="accordion-header" id="headingThree">
+										   		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										        	What can I use to build my website?
+										      	</button>
+										    </div>
+										    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionOne">
+										    	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+										</div>
+										<div class="accordion-item">
+										    <div class="accordion-header" id="headingFour">
+										   		<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+										        	If I already have a website, can I transfer it to your web hosting?
+										      	</button>
+										    </div>
+										    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionOne">
+										    	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+										</div>
+										<div class="accordion-item">
+										    <div class="accordion-header" id="headingFive">
+										   		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										        	How can I accept credit cards online?
+										      	</button>
+										    </div>
+										    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionOne">
+										    	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+										</div>
+										<div class="accordion-item">
+										    <div class="accordion-header" id="headingSix">
+										   		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+										        	How does Your Pricing Work?
+										      	</button>
+										    </div>
+										    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionOne">
+										    	<div class="accordion-body">
+										        	<p>They not only understand what I say but read between the lines and also give me ideas of my own. AI technology is perfect for best business solutions. </p>
+										    	</div>
+										    </div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-
-					<ul class="nav nav-tabs justify-content-center pricing-nav-one" role="tablist">
-				  		<li class="nav-item" role="presentation">
-				  			<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#month" type="button" role="tab">Monthly</button>
-				  		</li>
-				  		<li class="nav-item" role="presentation">
-				  			<button class="nav-link" data-bs-toggle="tab" data-bs-target="#year" type="button" role="tab">Yearly</button>
-				  		</li>
-					</ul>
 				</div> <!-- /.container -->
-
-				<div class="pricing-table-area-one" data-aos="fade-up" data-aos-delay="100">
-					<div class="container">
-						<div class="tab-content">
-							<div class="tab-pane active show" id="month">
-						  		<div class="row gx-xxl-5">
-									<div class="col-md-6">
-										<div class="pr-table-wrapper active md-mb-30">
-											<div class="pack-name">Business</div>
-											<div class="pack-details">For individuals and teams. Get <span>1 year <br> premium market access</span></div>
-											<div class="top-banner d-sm-flex justify-content-center align-items-center">
-												<div class="price"><sup>$</sup>75</div>
-												<div>
-													<span>Monthly membership</span>
-													<em>Starting at $75/mo with </em>
-												</div>
-											</div> <!-- /.top-banner -->
-											<ul class="pr-feature style-none">
-												<li>Unlimited campaigns</li>
-												<li>Push Notifications</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="trial-button">Try us without risk. <span>Choose plan <i class="fas fa-chevron-right"></i></span> </a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-									<div class="col-md-6">
-										<div class="pr-table-wrapper">
-											<div class="pack-name">Agency</div>
-											<div class="pack-details">For big agency & teams. Get <span>1 year <br> premium market access</span></div>
-											<div class="top-banner d-sm-flex justify-content-center align-items-center">
-												<div class="price"><sup>$</sup>99</div>
-												<div>
-													<span>Monthly membership</span>
-													<em>Starting at $99/mo with </em>
-												</div>
-											</div> <!-- /.top-banner -->
-											<ul class="pr-feature style-none">
-												<li>Unlimited campaigns</li>
-												<li>Push Notifications</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="trial-button">Try us without risk. <span>Choose plan <i class="fas fa-chevron-right"></i></span> </a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-								</div>
-							</div>
-
-							<div class="tab-pane" id="year">
-						  		<div class="row gx-xxl-5">
-									<div class="col-md-6">
-										<div class="pr-table-wrapper active md-mb-30">
-											<div class="pack-name">Business</div>
-											<div class="pack-details">For individuals and teams. Get <span>2 year <br> premium market access</span></div>
-											<div class="top-banner d-sm-flex justify-content-center align-items-center">
-												<div class="price"><sup>$</sup>69</div>
-												<div>
-													<span>Yearly membership</span>
-													<em>Starting at $69/mo with </em>
-												</div>
-											</div> <!-- /.top-banner -->
-											<ul class="pr-feature style-none">
-												<li>Unlimited campaigns</li>
-												<li>Push Notifications</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="trial-button">Try us without risk. <span>Choose plan <i class="fas fa-chevron-right"></i></span> </a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-									<div class="col-md-6">
-										<div class="pr-table-wrapper">
-											<div class="pack-name">Agency</div>
-											<div class="pack-details">For big agency & teams. Get <span>2 year <br> premium market access</span></div>
-											<div class="top-banner d-sm-flex justify-content-center align-items-center">
-												<div class="price"><sup>$</sup>97</div>
-												<div>
-													<span>Yearly membership</span>
-													<em>Starting at $97/mo with </em>
-												</div>
-											</div> <!-- /.top-banner -->
-											<ul class="pr-feature style-none">
-												<li>Unlimited campaigns</li>
-												<li>Push Notifications</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="trial-button">Try us without risk. <span>Choose plan <i class="fas fa-chevron-right"></i></span> </a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-								</div>
-							</div>
-						</div> <!-- /.tab-content -->
-
-						<div class="msg-note mt-80 lg-mt-50" data-aos="fade-up">If you Need any Custom or others Pricing System. <br> Please <a href="contact-us.html">Send Message</a></div>
-					</div>
-				</div> <!-- /.pricing-table-area-one -->
-			</div> <!-- /.pricing-section-one -->
-
-
-
-			<!--
-			=====================================================
-				Pricing Section Two
-			=====================================================
-			-->
-			<div class="pricing-section-two position-relative mt-150 mb-180 lg-mt-80 lg-mb-80">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-xl-7 col-lg-6 col-md-8 m-auto">
-							<div class="title-style-one text-center mb-20" data-aos="fade-up">
-								<div class="sc-title-five">Pricing & Plan</div>
-								<h2 class="main-title">No Hidden Cost. Choose your plan.</h2>
-							</div> <!-- /.title-style-one -->
-						</div>
-					</div>
-					<div class="pricing-table-area-two">
-						<div class="row">
-							<div class="col-xxl-10 m-auto">
-								<div class="row justify-content-center">
-									<div class="col-lg-4 col-sm-6" data-aos="fade-right">
-										<div class="pr-table-wrapper tran3s mt-40">
-											<div class="pack-name">Standard</div>
-											<div class="price"><sup>$</sup>0</div>
-											<ul class="pr-feature style-none">
-												<li>1 Domain</li>
-												<li>1 Year Premium Support</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="btn-seven w-100 mt-50">Choose Plan</a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-
-									<div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
-										<div class="pr-table-wrapper tran3s mt-40 active">
-											<div class="pack-name">Gold</div>
-											<div class="price"><sup>$</sup>27. <sup>99</sup></div>
-											<ul class="pr-feature style-none">
-												<li>1 Domain</li>
-												<li>1 Year Premium Support</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="btn-seven w-100 mt-50">Choose Plan</a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-
-									<div class="col-lg-4 col-sm-6" data-aos="fade-left">
-										<div class="pr-table-wrapper tran3s mt-40">
-											<div class="pack-name">Diamond</div>
-											<div class="price"><sup>$</sup>39. <sup>99</sup></div>
-											<ul class="pr-feature style-none">
-												<li>1 Domain</li>
-												<li>1 Year Premium Support</li>
-												<li>Team fundraising</li>
-											</ul>
-											<a href="#" class="btn-seven w-100 mt-50">Choose Plan</a>
-										</div> <!-- /.pr-table-wrapper -->
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-xxl-5 col-xl-6 col-lg-7 m-auto">
-								<p class="info mt-75 lg-mt-50" data-aos="fade-up">We've done it carefully and simply. Combined with the ingredients makes for beautiful landings.</p>
-							</div>
-						</div>
-					</div> <!-- /.pricing-table-area-two -->
-				</div>
-				<img src="{% static 'images/shape/shape_34.svg' %}" alt="" class="shapes shape-one">
-			</div> <!-- /.pricing-section-two -->
-
-
-
-			<!-- 
-			=============================================
-				Fancy Short Banner Five
-			============================================== 
-			-->
-			<div class="fancy-short-banner-five">
-				<div class="container">
-					<div class="bg-wrapper">
-						<div class="row align-items-center">
-							<div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
-								<h3 class="pe-xxl-5 md-pb-20">Having any Query? Book an appointment.</h3>
-							</div>
-							<div class="col-lg-6 text-center text-lg-end" data-aos="fade-left">
-								<a href="contact-us.html" class="msg-btn tran3s">Send Us Message</a>
-							</div>
-						</div>
-					</div> <!-- /.bg-wrapper -->
-				</div> <!-- /.container -->
-			</div> <!-- /.fancy-short-banner-five -->
+			</div> <!-- /.faq-section-one -->
 
 		
 
@@ -394,7 +279,7 @@
 				Footer
 			=====================================================
 			-->
-			<div class="footer-style-four space-fix-one theme-basic-footer">
+			<div class="footer-style-four theme-basic-footer">
 				<div class="container">
 					<div class="inner-wrapper">
 						<div class="subscribe-area">
@@ -425,7 +310,6 @@
 									<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
 								</ul>
 							</div>
-							
 							<div class="col-lg-2 col-sm-4 ms-auto mb-30">
 								<h5 class="footer-title">Links</h5>
 								<ul class="footer-nav-link style-none">
@@ -503,3 +387,4 @@
 		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>
+
