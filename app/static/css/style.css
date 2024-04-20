@@ -506,6 +506,8 @@ body .btn-six:after {
   transition: all 0.3s ease-in-out;
   background: linear-gradient(90.43deg, #FF171D 10.07%,  #FF8386 99.78%);
 }
+
+
 body .btn-six:hover:after {opacity: 1;}
 body .btn-seven {
   font-family: 'gorditamedium';
@@ -3145,7 +3147,7 @@ body .btn-eight:hover {
 .pricing-section-two .shape-one {left: 0; top: 4%;}
 .pricing-table-area-two .pr-table-wrapper {
   padding: 30px 35px 40px;
-  text-align: center;
+  /* text-align: center; */
   background: #FFFFFF;
   box-shadow: 0px 40px 80px rgba(0, 5, 134, 0.05);
   border-radius: 15px;
@@ -4440,6 +4442,7 @@ body .btn-eight:hover {
   top: 0;
   transition: all 0.3s ease-in-out;
 }
+
 .blog-comment-area .comment .reply-btn:hover {background: var(--prime-two);}
 .blog-comment-area .comment {margin-top: 30px; padding-bottom: 20px;}
 .blog-comment-form form label {
@@ -4541,6 +4544,7 @@ body .btn-eight:hover {
   border-radius: 8px;
   padding: 0 20px;
 }
+
 .form-style-one form textarea {
   font-size: 18px;
   width: 100%;
